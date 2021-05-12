@@ -4,7 +4,8 @@ import {SafeAreaView, useColorScheme} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 //Screen imports
 // import HomeScreen from './src/screens/HomeScreen';
-import ProductScreen from './src/screens/ProductScreen';
+// import ProductScreen from './src/screens/ProductScreen';
+import ShoppingCartScreen from './src/screens/ShoppingCartScreen';
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -14,7 +15,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <ProductScreen />
+      <ShoppingCartScreen />
     </SafeAreaView>
   );
 };
