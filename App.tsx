@@ -5,7 +5,8 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 //Screen imports
 // import HomeScreen from './src/screens/HomeScreen';
 // import ProductScreen from './src/screens/ProductScreen';
-import ShoppingCartScreen from './src/screens/ShoppingCartScreen';
+// import ShoppingCartScreen from './src/screens/ShoppingCartScreen';
+import AddressScreen from './src/screens/AddressScreen';
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -15,7 +16,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <ShoppingCartScreen />
+      <AddressScreen />
     </SafeAreaView>
   );
 };
