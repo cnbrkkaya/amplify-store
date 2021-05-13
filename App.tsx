@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {SafeAreaView, useColorScheme} from 'react-native';
+import {View, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import Router from './src/router';
@@ -14,9 +14,9 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
+    <View style={backgroundStyle}>
       <Router />
-    </SafeAreaView>
+    </View>
   );
 };
 
