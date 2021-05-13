@@ -9,7 +9,7 @@ import Feather from 'react-native-vector-icons/Feather';
 const Stack = createStackNavigator();
 interface HeaderComponentProps {
   searchValue: string;
-  setSearchValue: () => void;
+  setSearchValue: (value: string) => void;
 }
 const HeaderComponent = ({
   searchValue,
